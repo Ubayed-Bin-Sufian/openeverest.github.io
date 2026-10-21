@@ -73,8 +73,6 @@ faq:
     answer: "Enable inter-component TLS and the master, volume, filer, and S3 gateway talk to each other over gRPC with mutual TLS, using certificates issued by [cert-manager](https://cert-manager.io). For HTTPS from S3 clients, terminate TLS at an Ingress - the in-cluster S3 service itself serves plain HTTP for now."
   - question: "Which SeaweedFS versions are supported?"
     answer: "The provider currently ships SeaweedFS 4.47 in a standalone topology that provisions the master, volume, filer, and S3 components. See the [provider repository](https://github.com/openeverest/provider-seaweedfs) for the current version matrix."
-  - question: "Is the provider ready for production?"
-    answer: "Not yet. The provider is an early-stage MVP: schemas and chart defaults still change between versions and there is no supported upgrade path. Backups of SeaweedFS itself, monitoring, and S3 access credentials are not configured by the provider yet, so keep the gateway on a private network. Watch the [provider repository](https://github.com/openeverest/provider-seaweedfs) for status updates."
 
 # Optional override of the closing call-to-action text.
 cta_description: "Deploy OpenEverest on any Kubernetes cluster and run your first S3-compatible object store in minutes."
