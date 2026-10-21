@@ -1,6 +1,6 @@
 ---
 title: "Shivansh Sinha"
 github: "shivansh-source"
-bio: "TODO: add a 1-2 sentence bio (role, focus areas, what brought you to OpenEverest). Your public GitHub profile (github.com/shivansh-source) doesn't expose a bio, company, or location, so this couldn't be inferred automatically — please fill it in yourself."
+bio: "DevOps and backend engineer based in Bengaluru, India, contributing to the Kubernetes and CNCF ecosystem. At OpenEverest he tests v2 dev builds, fixes install and upgrade bugs, and works on the ClickHouse, KubeAI, and OpenSearch providers."
 avatar: "avatar.jpg"
 ---
