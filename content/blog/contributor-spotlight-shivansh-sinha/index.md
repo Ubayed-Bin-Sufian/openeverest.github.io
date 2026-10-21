@@ -3,7 +3,7 @@ title: "Contributor Spotlight: Shivansh Sinha"
 date: 2026-10-21T06:00:00
 draft: false
 image:
-    url:
+    url: contrib-spotlight-cover.png
     attribution:
 authors:
   - spron-in
@@ -17,6 +17,8 @@ summary: "Meet Shivansh Sinha — a DevOps and backend engineer in Bengaluru who
 ---
 
 Some contributors arrive with a feature request. Shivansh Sinha arrived with a bug report. Then he came back with another one, and another, and eventually with the code to fix them.
+
+<img src="headshot.png" alt="OpenEverest Contributor - Shivansh Sinha photo" style="max-width: 480px; width: 100%; height: auto;">
 
 Shivansh is a DevOps and backend engineer based in Bengaluru, India. Until recently he was a founding engineer at CapMob, a fintech startup in the UAE, where he owned the backend and the AWS infrastructure end to end: ECS Fargate, an ALB and Aurora Postgres across two regions, a migration to Terraform, the CI/CD pipeline, and a move of services from Next.js to Go.
 
