@@ -7,18 +7,21 @@ tagline: "Time-series PostgreSQL, Apache 2.0 or Community edition."
 weight: 12
 draft: false
 
-# Reuses the PostgreSQL screenshots under static/images/for/postgresql/ until
-# TimescaleDB-specific ones are available.
+# TimescaleDB screenshots live under static/images/for/timescaledb/; the
+# generic provisioning and advanced configuration steps reuse the PostgreSQL ones.
 slides:
   - image: "/images/for/postgresql/for-postgresql-0.png"
     title: "Guided Provisioning"
-    description: "Create a PostgreSQL 18 database with the CloudNativePG provider from the OpenEverest UI, then enable TimescaleDB while provisioning it."
+    description: "Create a PostgreSQL 18 database with the CloudNativePG provider from the OpenEverest UI."
+  - image: "/images/for/timescaledb/for-timescaledb-0.png"
+    title: "Choose Your TimescaleDB Edition"
+    description: "Enable TimescaleDB (Apache 2.0) or TimescaleDB Community (Timescale License) in the Extensions step, alongside pgvector, PostGIS, and other PostgreSQL extensions."
   - image: "/images/for/postgresql/for-postgresql-2.png"
     title: "CloudNativePG Advanced Configuration"
     description: "Tune storage and PostgreSQL settings for your time-series workload through the CloudNativePG provider without writing Kubernetes manifests."
-  - image: "/images/for/postgresql/for-postgresql-3.png"
+  - image: "/images/for/timescaledb/for-timescaledb-1.png"
     title: "Cluster Overview"
-    description: "Review cluster health, connection details, replicas, and resources. TimescaleDB is created in the application database and ready to use."
+    description: "Review cluster health, connection details, enabled extensions, backups, and resources. TimescaleDB is created in the application database and ready to use."
 
 # Key capabilities. `icon` maps to layouts/partials/feature-icon.html keywords.
 capabilities:
