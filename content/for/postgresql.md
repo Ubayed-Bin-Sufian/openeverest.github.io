@@ -73,6 +73,8 @@ faq:
     answer: "Yes. PostgreSQL clusters can run with replicas and operator-managed failover. The exact topology and failover behavior depend on the provider you select."
   - question: "Can I back up and restore PostgreSQL?"
     answer: "OpenEverest supports on-demand and scheduled backups with point-in-time recovery to S3-compatible storage. The exact backup implementation depends on the selected provider."
+  - question: "Does OpenEverest support TimescaleDB?"
+    answer: "Yes. The CloudNativePG provider can enable TimescaleDB, in the Apache 2.0 or Community edition, on PostgreSQL 18 clusters. See [OpenEverest for TimescaleDB](/for/timescaledb/)."
   - question: "Which PostgreSQL versions are supported?"
     answer: "Supported PostgreSQL versions depend on the selected provider and its upstream operator. Check the [CloudNativePG provider](https://github.com/AdityaPimpalkar/provider-cloudnative-pg) or [Percona PostgreSQL provider](https://github.com/openeverest/provider-percona-postgresql) repository for the current version matrix."
 
