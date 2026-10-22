@@ -1,0 +1,16 @@
+{{- /*
+  Returns the <title> text for a page. Appends " - <Site.Title>" only when the
+  result stays within ~60 characters (SERP truncation) and the title doesn't
+  already mention the site name. Front matter `seoTitle` overrides the title
+  used here without touching the on-page H1 or the URL.
+
+  Usage: {{ partial "page-title.html" (dict "page" . "title" "optional base title") }}
+*/ -}}
+{{- $page := .page -}}
+{{- $title := $page.Params.seotitle | default .title | default $page.Title -}}
+{{- $site := $page.Site.Title -}}
+{{- $full := printf "%s - %s" $title $site -}}
+{{- if or (strings.Contains $title $site) (gt (strings.RuneCount $full) 60) -}}
+  {{- $full = $title -}}
+{{- end -}}
+{{- return $full -}}
