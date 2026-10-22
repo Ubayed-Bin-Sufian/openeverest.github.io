@@ -14,4 +14,4 @@ The TiDB provider now supports on-demand snapshot backups to S3-compatible stora
 
 Previously, there was no native way to back up TiDB clusters from within OpenEverest. Operators had to use external tools or manual scripts to protect their data. The new backup flow is integrated directly into the provider and works with any S3-compatible endpoint.
 
-Update to provider-tidb v0.1.3 to use on-demand snapshot backups. To learn more, visit the [TiDB provider documentation](https://docs.openeverest.io/).
+Update to provider-tidb v0.1.3 to use on-demand snapshot backups. To learn more, visit the [OpenEverest documentation](https://openeverest.io/docs/).

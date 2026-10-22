@@ -14,4 +14,4 @@ The TiDB provider now supports restoring clusters from existing backups and crea
 
 Previously, restoring a TiDB cluster or creating a new instance from an existing backup required external tools and manual orchestration outside of OpenEverest. The restore flow is now managed end-to-end by the provider.
 
-Update to provider-tidb v0.1.3 to use the new restore and instance-from-backup capabilities. To learn more, visit the [TiDB provider documentation](https://docs.openeverest.io/).
+Update to provider-tidb v0.1.3 to use the new restore and instance-from-backup capabilities. To learn more, visit the [OpenEverest documentation](https://openeverest.io/docs/).
