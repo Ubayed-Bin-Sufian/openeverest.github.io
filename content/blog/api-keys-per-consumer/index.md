@@ -2,6 +2,9 @@
 title: "One API Key per Application for Your Self-Hosted Models"
 date: 2026-10-25T00:00:00
 draft: false
+image:
+  url: blog-api-keys-cover.jpg
+  alt: "OpenEverest - Blog - Separate keys for Model-as-a-Service"
 authors:
   - spron-in
 tags:
@@ -26,19 +29,19 @@ We already had a fix for exactly this problem, just for databases.
 
 ## A key is just a user of a model
 
-The [User Management plugin](https://github.com/openeverest/plugin-user-management) adds a **Users** tab to MongoDB and PostgreSQL instances, so teams stop sharing the admin account. Each user is an `InstanceUser` resource; the plugin creates it in the database, keeps its credentials in a Secret your application can mount, and drops it when you delete it.
+The [User Management plugin](https://github.com/openeverest/plugin-user-management) adds a *Users* tab to MongoDB and PostgreSQL instances, so teams stop sharing the admin account. Each user is an `InstanceUser` resource; the plugin creates it in the database, keeps its credentials in a Secret your application can mount, and drops it when you delete it.
 
-A consumer of a model is the same thing. So instead of building a new API, we taught the plugin a new engine: `provider-kserve`. Open a model, go to **Users**, and you'll see **API keys** instead of database users:
+A consumer of a model is the same thing. So instead of building a new API, we taught the plugin a new engine: `provider-kserve`. Open a model, go to *Users*, and you'll see *API keys* instead of database users:
 
-<!-- Screenshot: the Users tab of a model, listing API keys and the model's own key as System -->
+![Creating an API key in the Users tab of a model](blog-kserve-create-key.png)
 
-Click **Create API key**, give it a name (`chat-app`, `team-search`, `alice`...), and you get everything a client needs:
+Click *Create API key*, give it a name (`chat-app`, `team-search`, `alice`...), and you get everything a client needs:
 
 - **API key:** `oe_sk_...`, always generated, never typed.
 - **Base URL:** `https://<your-gateway>/v1`.
 - **Model:** the name to send in the `model` field.
 
-<!-- Screenshot: the credentials dialog after creating a key -->
+![Credentials of a newly created API key](kserve-blog-key-creds.png)
 
 It's stored in a Secret in the model's namespace, so an application can mount it instead of copying it around. Any OpenAI-compatible client works:
 
@@ -76,7 +79,7 @@ We tried every case below on a test cluster with small CPU models, then ran Qwen
 - **Other models.** A key only calls the model it was created for; anything else gets `403`.
 - **Delete the model.** Its keys go with it.
 
-The model's own key is still there, listed as a **System** user. Existing clients keep working while you move them to their own keys.
+The model's own key is still there, listed as a *System* user. Existing clients keep working while you move them to their own keys.
 
 ## How it works
 
@@ -103,7 +106,7 @@ The details are in the provider's [API keys proposal](https://github.com/openeve
 
 ## Try it
 
-You need **provider-kserve 0.4.4** or later with the AI Gateway enabled (the [setup guide](https://github.com/openeverest/provider-kserve/blob/main/docs/ai-gateway-setup.md) walks through it, including `nip.io` and Let's Encrypt for tests), and **plugin-user-management 0.2.0** or later:
+You need *provider-kserve 0.4.4* or later with the AI Gateway enabled (the [setup guide](https://github.com/openeverest/provider-kserve/blob/main/docs/ai-gateway-setup.md) walks through it, including `nip.io` and Let's Encrypt for tests), and *plugin-user-management 0.2.0* or later:
 
 ```bash
 helm install plugin-user-management \
@@ -111,7 +114,7 @@ helm install plugin-user-management \
   --version 0.2.0 --namespace everest-system
 ```
 
-Deploy a model with `externalAccess: EnvoyAIGateway`, open its **Users** tab, and create a key per application.
+Deploy a model with `externalAccess: EnvoyAIGateway`, open its *Users* tab, and create a key per application.
 
 ## What's next
 
