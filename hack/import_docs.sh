@@ -191,5 +191,8 @@ then
 fi
 # Replace the content of the last available doc folder as 'current' or 'preview'
 cp -a $DOCDIR/$latest_version $DOCDIR/$LATEST_VERSION_LINK_DIR
-git add $DOCDIR/$LATEST_VERSION_LINK_DIR
-git add $TARGETDIR
+
+# Fix canonicals/titles/descriptions/sitemaps (MkDocs' site_url is unversioned).
+# Runs over every version: a new stable release moves the "current" canonical.
+python3 "$REPO_ROOT/hack/fix_docs_seo.py" "$DOCDIR"
+git add $DOCDIR
