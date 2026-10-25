@@ -1,6 +1,9 @@
 
 ---
 title: Documentation
+# /documentation/ has no page of its own (only versioned MkDocs builds below it).
+aliases:
+  - /documentation/
 versions:
   - release: "2.0.0-dev.4"
     location: "/documentation/2.0.0-dev.4"

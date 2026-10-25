@@ -1,111 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://docs.percona.com/everest/index.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/API.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/API.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/contribute.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/contribute.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/features.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/features.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/api/index.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/api/</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/api/contribute/contribute.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/api/contribute/contribute.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/configure/db_engine_config.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/configure/db_engine_config.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/install/installEverest.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/install/installEverest.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/install/uninstallEverest.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/install/uninstallEverest.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/quickstart-guide/eks.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/quickstart-guide/eks.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/quickstart-guide/gke.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/quickstart-guide/gke.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/quickstart-guide/qs-overview.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/quickstart-guide/qs-overview.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/quickstart-guide/qs-prerequisites.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/quickstart-guide/qs-prerequisites.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/quickstart-guide/quick-install.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/quickstart-guide/quick-install.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/reference/index.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/reference/</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/reference/acknowledgements.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/reference/acknowledgements.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/reference/architecture.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/reference/architecture.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/reference/copyright.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/reference/copyright.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/reference/glossary.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/reference/glossary.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/reference/telemetry.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/reference/telemetry.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/reference/trademark-policy.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/reference/trademark-policy.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/release-notes/index.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/release-notes/</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/release-notes/Percona%20Everest%200.4.0%20%282023-10-30%29.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/release-notes/Percona%20Everest%200.4.0%20%282023-10-30%29.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/use/backupRestore.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/use/backupRestore.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/use/cluster-management.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/use/cluster-management.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/use/db_provision.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/use/db_provision.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
     <url>
-         <loc>https://docs.percona.com/everest/use/scaling.html</loc>
+         <loc>https://openeverest.io/documentation/0.4.0/use/scaling.html</loc>
          <lastmod>2025-12-09</lastmod>
     </url>
 </urlset>

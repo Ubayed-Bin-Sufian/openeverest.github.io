@@ -1,2 +1,4 @@
+Sitemap: https://openeverest.io/sitemap.xml
+
 User-agent: *
 Disallow: /documentation/1.14.0/
